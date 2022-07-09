@@ -1,0 +1,194 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-09T11:37:44.421Z",
+        "line": 4,
+        "name": "To verify the price of the selected product in console",
+        "description": "",
+        "id": "to-vaalidate-the-functionailty-of-given-application;to-verify-the-price-of-the-selected-product-in-console",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31504446300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User will launch the browser and hit the Url",
+            "match": {
+              "location": "StepDef.user_will_launch_the_browser_and_hit_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 798220700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User will enter the given testdate in search field",
+            "match": {
+              "location": "StepDef.user_will_enter_the_given_testdate_in_search_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10585581400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User will click the search button",
+            "match": {
+              "location": "StepDef.user_will_click_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 910032400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User will click the first item from the listed products",
+            "match": {
+              "location": "StepDef.user_will_click_the_first_item_from_the_listed_products()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21137399800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User will print the product price as output",
+            "match": {
+              "location": "StepDef.user_will_print_the_product_price_as_output()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EbayTest"
+          }
+        ]
+      }
+    ],
+    "name": "To vaalidate the functionailty of given application",
+    "description": "",
+    "id": "to-vaalidate-the-functionailty-of-given-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Ebay.feature",
+    "tags": [
+      {
+        "name": "@EbayTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-09T11:38:49.415Z",
+        "line": 4,
+        "name": "To verify the login using given valid credentials",
+        "description": "",
+        "id": "to-validate-the-functionality-of-gmail-page;to-verify-the-login-using-given-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20229678400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User will launch the browser and hit the url",
+            "match": {
+              "location": "StepDef.user_will_launch_the_browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3466815200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User will enter the username and click next button",
+            "match": {
+              "location": "StepDef.user_will_enter_the_username_and_click_next_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3241606900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User will enter the password and click next button",
+            "match": {
+              "location": "StepDef.user_will_enter_the_password_and_click_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13877114700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User will verify the successful login by user profile icon in top right corner",
+            "match": {
+              "location": "StepDef.user_will_verify_the_successful_login_by_user_profile_icon_in_top_right_corner()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1442072900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should verify if sign in text in title is not displayed",
+            "match": {
+              "location": "StepDef.user_should_verify_if_sign_in_text_in_title_is_not_displayed()"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GmailTest"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the functionality of Gmail page",
+    "description": "",
+    "id": "to-validate-the-functionality-of-gmail-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Gmail.feature",
+    "tags": [
+      {
+        "name": "@GmailTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
